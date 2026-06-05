@@ -1,3 +1,54 @@
+/*estilo da lista do nav*/
 ul{
     list-style: none;
 }
+
+/*imagens no geral*/
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*body*/
+body {
+    font-family: "Arial Nova";
+
+}
+
+
+/*background da apresentação da empresa*/
+.photopresent{
+    background-image: url("petrosenaipresent.png");
+    background-size: 100% auto;  /* largura/altura */
+    
+
+}
+
+/*alinhamento de itens do header*/
+.cabeçalho{
+    display: flex;
+    gap: 72%;
+    align-items: center;
+    
+}
+
+/*logo da empresa*/
+.cabeçalho a{
+    text-decoration: none;
+    
+}
+
+/*alinhamento de itens do nav*/
+.menu {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*alinhamento de items */
+.menu ul{
+    display: flex;
+    gap: 25px;
+}
+
+/**/
