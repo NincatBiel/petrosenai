@@ -12,37 +12,63 @@ img{
 
 /*body*/
 body {
-    font-family: "Arial Nova";
-
+    font-family: "Segoe UI";
 }
 
+html{
+    animation: fadeIn 1s ease;
+}
 
 /*background da apresentação da empresa*/
 .photopresent{
     background-image: url("petrosenaipresent.png");
     background-size: 100% auto;  /* largura/altura */
     
+}
 
+/*root*/
+:root{
+    --azul-padrao: rgb(1, 1, 196);
 }
 
 /*alinhamento de itens do header*/
 .cabeçalho{
     display: flex;
-    gap: 72%;
+    gap: 70%;
     align-items: center;
+    background-color: var(--azul-padrao);
+    color: white;
     
 }
 
-/*logo da empresa*/
-.cabeçalho a{
+a{
     text-decoration: none;
+}
+
+
+/*.logo{
     
+}*/
+
+.logo img{
+    width: 20px;
+    height: 20px;
+}
+
+/*logo da empresa*/
+.logo a{
+    color: white;    
 }
 
 /*alinhamento de itens do nav*/
 .menu {
     align-items: center;
     justify-content: flex-end;
+}
+
+/*estilização dos links*/
+.menu a{
+    color: white;
 }
 
 /*alinhamento de items */
