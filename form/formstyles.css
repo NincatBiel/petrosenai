@@ -90,3 +90,19 @@ button[type="submit"]:hover, button[type="reset"]:hover{
     height: 35px;
     color: var(--branco-qndoi);
 }
+
+.voltar button{
+    border-radius: 5px;
+    border-style: solid;
+    border: 1px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+}
+
+.voltar button:hover{
+    width: 70px;
+    height: 35px;
+    color: var(--azul-pretao);
+}
