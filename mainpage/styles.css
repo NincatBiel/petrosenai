@@ -1,0 +1,180 @@
+/*estilo da lista do nav*/
+ul{
+    list-style: none;
+}
+
+/*imagens no geral*/
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*body*/
+body {
+    font-family: "Segoe UI";
+    margin: 0px;
+    background-color: var(white);
+    overflow-x: hidden; /*proíbe o croll horizontal*/
+}
+
+html{
+    animation: fadeIn 1s ease;
+}
+
+/*root*/
+:root{
+    --azul-padrao: rgb(1, 1, 196);
+    --laranja-padrao: rgb(218, 66, 11);
+    font-size: 21px;
+}
+
+/*========================================================================================*/
+
+/*header*/
+/*alinhamento de itens do header*/
+.cabeçalho{
+    display: flex;
+    gap: 55%;
+    align-items: center;
+    background-color: var(--azul-padrao);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*alinhamento da logo*/
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+/*logo da empresa | img*/
+.logo img{
+    width: 80px;
+    height: 50px;
+}
+
+/*logo da empresa | text*/
+.logo a{
+    color: white; 
+    font-weight: bold;
+}
+
+/*cor específica da logo do senai*/
+.logosenai{
+    color: var(--laranja-padrao);
+}
+
+/*alinhamento de itens do nav*/
+.menu {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*estilização dos links*/
+.menu a{
+    color: white;
+}
+
+/*alinhamento de items */
+.menu ul{
+    display: flex;
+    gap: 25px;
+}
+
+/*=======================================================================================*/
+
+/*footer*/
+/*background e alinhamento do footer*/
+footer {
+    background-color: blue;
+}
+
+/*main*/
+/*margiamento do main*/
+main
+
+/*==========================================================================================*/
+
+/*section bpresent*/
+.photopresent{
+    position: relative;
+}
+
+.photopresent img{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    display: block;
+}
+
+.textossobrepostos{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    text-align: left;
+    padding: 10px 20px; /*y|x*/
+}
+
+.textossobrepostos h1{
+    color: white;
+    text-shadow: 0px 2px 8px rgba(0,0,0,1);
+    top: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: max-content;
+}
+
+.textossobrepostos article{
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 8px rgba(0,0,0,0.9);
+    max-width: 50%;
+    transform: translateY(325%);
+    background-size: cover;
+    background-color: rgba(0,0,0,0.1);
+    backdrop-filter: blur(3px);
+}
+
+/*botão pra descer para a história da empresa*/
+.homedescer{
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: var();
+    cursor: pointer;
+    width: 5cm;
+    height: 0.9cm;
+}
+
+/*=============================================================================================*/
+
+/*história da empresa | section*/
+#history{
+    margin: 0px 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+#history img{
+    width: 35%;
+    height: 35%;
+    border-radius: 5px;
+}
+
+#history article{
+    width: 50%;
+    
+}
+
+
+
+/* Liga bordas vermelhas pra ver quem tá criando espaço */
+/*.cabeçalho, .photopresent, body, * {
+    outline: 1px solid red;
+}
