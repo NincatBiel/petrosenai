@@ -1,1 +1,92 @@
+/*root*/
+:root{
+    --azul-padrao: rgb(1, 1, 196);
+    --laranja-padrao: rgb(218, 66, 11);
+    --branco-qndoi: rgb(255, 255, 255);
+    --azul-pretao: rgb(1, 1, 32);
+    font-size: 21px;
+    font-family: "Segoe UI";
+}
 
+html{
+    transition: fadeIn 1s ease;
+}
+
+body{
+    background-color: var(--azul-padrao);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*texto de apresentação do form*/
+.welcome{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--branco-qndoi);
+}
+
+/*formulario*/
+form{
+    background-color: var(--branco-qndoi);
+    background-size: contain;
+    border-radius: 10px;
+}
+
+.formulario{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+input, textarea{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--azul-pretao);
+}
+
+fieldset{
+    border: 0;
+    margin-left: -2%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+button[type="submit"]{
+    background-color: green;
+    border-radius: 5px;
+    border-style: solid;
+    border: 1px;
+    cursor: pointer;
+    padding: 0px;
+    width: 60px;
+    height: 30px;
+}
+
+button[type="reset"]{
+    background-color: red;
+    border-radius: 5px;
+    border-style: solid;
+    border: 1px;
+    cursor: pointer;
+    padding: 0px;
+    width: 60px;
+    height: 30px;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover{
+    width: 70px;
+    height: 35px;
+    color: var(--branco-qndoi);
+}
